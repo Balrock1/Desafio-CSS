@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 60px;
+    color: rgb(192, 210, 30);
+}
+
+header h1 span{
+    font-size: 35px;
+    display: block;
+    padding-left: 48px;
+    color: white;
+    
+}
+
+section{
+    display: block;
+    justify-content: center;
+}
+
+section .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .Tarjetas{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(209, 208, 205, 0.993);
+    border-bottom: 5px cornflowerblue solid;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    color: rgb(165, 42, 48);
+}
+
+.Tarjetas .Tarjetas-text{
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+    color: white;
+    float: left;
+    margin-top: 20px;
+    display: block;
+}
+
+.Tarjetas .Tarjetas-titulo{
+
+    background-color: rgb(0, 102, 255);
+    padding: 20px;
+}
+
+.Tarjetas .Tarjetas-image{
+    float: left;
+    display: block;
+    width: 40%;
+    
+}
+
+.Tarjetas .Tarjetas-image img{
+    border-radius: 50%;
+    border: 3px solid #999;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+}
+
+
+.Tarjetas .tarjetas-precio{
+    font-size: 20px;
+    background-color: rgb(115, 15, 134);
+    padding: 20px;
+    display: block;
+}
+
+.Tarjetas .tarjetas-descripcion{
+    color: black;
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: block;
+}
+
+footer a{
+    margin: auto;
+    display: block;
+    padding: 30px;
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
